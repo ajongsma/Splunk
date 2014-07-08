@@ -2,7 +2,7 @@ Splunk - Sessions
 ======
 Input
 ======
-
+````
 <?xml version="1.0" encoding="UTF-8"?>
 <MediaContainer size="1">
 <Video addedAt="1399347340" art="/library/metadata/714/art/1400007807" contentRating="TV-14" duration="2581920" grandparentKey="/library/metadata/714" grandparentRatingKey="714" grandparentTheme="/library/metadata/714/theme/1400007807" grandparentThumb="/library/metadata/714/thumb/1400007807" grandparentTitle="The Blacklist" guid="com.plexapp.agents.thetvdb://266189/1/21?lang=en" index="21" key="/library/metadata/1119" librarySectionID="2" originallyAvailableAt="2014-05-05" parentIndex="1" parentKey="/library/metadata/715" parentRatingKey="715" parentThumb="/library/metadata/715/thumb/1396201245" rating="7.6999998092651403" ratingKey="1119" sessionKey="56" summary="Knowing the truth about her father, Liz refuses to work with Red; Red brings the FBI a compelling case; Liz reveals what she knows about Tom&apos;s life." thumb="/library/metadata/1119/thumb/1400089898" title="Berlin" type="episode" updatedAt="1400089898" viewOffset="613495" year="2014">
@@ -18,12 +18,12 @@ Input
 <Player machineIdentifier="4c1951ac-c3c4-40e5-8481-851b47e1181b" platform="Plex Home Theater" product="Plex Home Theater" state="paused" title="" />
 </Video>
 </MediaContainer>
-
+````
 
 
 Output
 ======
-
+````
 python xml_parser4.py
 ----------------------------------------
 Download ok
@@ -53,3 +53,4 @@ root <Element 'MediaContainer' at 0x106d56610>
 ('Media', {'videoFrameRate': '24p', 'videoCodec': 'h264', 'container': 'mkv', 'bitrate': '5269', 'height': '1076', 'width': '1916', 'audioChannels': '6', 'duration': '2581920', 'aspectRatio': '1.78', 'videoResolution': '1080', 'id': '1164', 'audioCodec': 'ac3'})
 ('User', {'thumb': 'http://www.gravatar.com/avatar/20b92fe4ad37c4af673be4e5d862aa65?d=404', 'id': '1', 'title': 'a.jongsma'})
 ('Player', {'platform': 'Plex Home Theater', 'product': 'Plex Home Theater', 'machineIdentifier': '4c1951ac-c3c4-40e5-8481-851b47e1181b', 'state': 'paused', 'title': ''})
+````
