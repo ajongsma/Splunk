@@ -2,6 +2,7 @@ Splunk - Sessions
 ======
 Input
 ======
+
 <?xml version="1.0" encoding="UTF-8"?>
 <MediaContainer size="1">
 <Video addedAt="1399347340" art="/library/metadata/714/art/1400007807" contentRating="TV-14" duration="2581920" grandparentKey="/library/metadata/714" grandparentRatingKey="714" grandparentTheme="/library/metadata/714/theme/1400007807" grandparentThumb="/library/metadata/714/thumb/1400007807" grandparentTitle="The Blacklist" guid="com.plexapp.agents.thetvdb://266189/1/21?lang=en" index="21" key="/library/metadata/1119" librarySectionID="2" originallyAvailableAt="2014-05-05" parentIndex="1" parentKey="/library/metadata/715" parentRatingKey="715" parentThumb="/library/metadata/715/thumb/1396201245" rating="7.6999998092651403" ratingKey="1119" sessionKey="56" summary="Knowing the truth about her father, Liz refuses to work with Red; Red brings the FBI a compelling case; Liz reveals what she knows about Tom&apos;s life." thumb="/library/metadata/1119/thumb/1400089898" title="Berlin" type="episode" updatedAt="1400089898" viewOffset="613495" year="2014">
@@ -22,6 +23,7 @@ Input
 
 Output
 ======
+
 python xml_parser4.py
 ----------------------------------------
 Download ok
