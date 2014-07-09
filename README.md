@@ -3,8 +3,8 @@ Splunk - Sessions
 
 Reference
 ======
-http://css.dzone.com/articles/processing-xml-python
-http://pymotw.com/2/xml/etree/ElementTree/parse.html
+- http://css.dzone.com/articles/processing-xml-python
+- http://pymotw.com/2/xml/etree/ElementTree/parse.html
 
 
 Input
