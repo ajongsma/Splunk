@@ -7,6 +7,8 @@ Reference
 - http://pymotw.com/2/xml/etree/ElementTree/parse.html
 - https://github.com/edrabbit?tab=repositories
 - http://blogs.splunk.com/2013/10/22/go-splunk-yourself/
+- https://forums.plex.tv/index.php/topic/71506-api-for-get-what-currently-is-playing-on-the-server/
+
 
 Input
 ======
