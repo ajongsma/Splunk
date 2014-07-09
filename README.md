@@ -6,7 +6,6 @@ Reference
 - http://css.dzone.com/articles/processing-xml-python
 - http://pymotw.com/2/xml/etree/ElementTree/parse.html
 - https://github.com/edrabbit?tab=repositories
-
 - http://blogs.splunk.com/2013/10/22/go-splunk-yourself/
 
 Input
