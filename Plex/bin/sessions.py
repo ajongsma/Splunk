@@ -10,12 +10,13 @@ SERVER_HOST = 'pooky.local'
 SERVER_PORT = '32400'
 SERVER_PLEX_TOKEN = ''
 
+DEBUG = True
+
 def check_sessions(server_host, server_port, server_plex_token):
 	timestamp = datetime.datetime.now()
 	
 #	#feed = urllib.urlopen("http://pooky.local:32400/status/sessions")
 #
-
 #	if SERVER_TOKEN:
 #		feed = urllib.urlopen("http://%s:%s/status/sessions?X-Plex-Token=%s" % SERVER, SERVER_PORT, SERVER_PLEX_TOKEN)
 #	else:
@@ -23,12 +24,8 @@ def check_sessions(server_host, server_port, server_plex_token):
 
 	tree = ET.ElementTree(file='sessions1.xml')
 
-#	tree.getroot()
-#	print tree.getroot()
-
 	root = tree.getroot()
 	root.tag, root.attrib
-#	print root.tag, root.attrib
 
 #	print 1, "-" * 40
 #	for child_of_root in root:
@@ -83,15 +80,15 @@ def check_sessions(server_host, server_port, server_plex_token):
 
 	for node in tree.iter('User'):
 		user_title = node.attrib.get('title')
-#		print user_title
+		if DEBUG:
+			print "DEBUG user_title		: ", user_title
 
 	for node in tree.iter('Player'):
 		player_platform = node.attrib.get('platform')
 		player_product = node.attrib.get('product')
-#		if player_platform and player_product:
-#			print '  %s :: %s' % (player_platform, player_product)
-#		else:
-#			print player_platform
+		if DEBUG:
+			print "DEBUG player_platform		: ", player_platform
+			print "DEBUG player_product 		: ", player_product
 			
 	for node in tree.iter('Video'):
 		video_grandparentTitle = node.attrib.get('grandparentTitle')
@@ -100,26 +97,24 @@ def check_sessions(server_host, server_port, server_plex_token):
 		video_guid = node.attrib.get('guid')
 		video_duration = node.attrib.get('duration')
 		video_viewOffset = node.attrib.get('viewOffset')
-#		if video_grandparentTitle and video_title:
-#			print '  %s :: %s' % (video_grandparentTitle, video_title)
-#		else:
-#			print video_grandparentTitle
-#		if video_type and video_guid:
-#			print '  %s :: %s' % (video_type, video_guid)
-#		else:
-#			print video_grandparentTitle
+		if DEBUG:
+			print "DEBUG video_grandparentTitle	: ", video_grandparentTitle
+			print "DEBUG video_title		: ", video_title
+			print "DEBUG video_type		: ", video_type
+			print "DEBUG video_guid		: ", video_guid
+			print "DEBUG video_duration		: ", video_duration
+			print "DEBUG video_viewOffset		: ", video_viewOffset
+			
 		if video_duration and video_viewOffset:
 			video_progress = float(video_viewOffset)/float(video_duration)*100
-#			print '  %s :: %s' % (video_duration, video_viewOffset)
-#			print '  progress :', video_progress
-#		else:
-#			print video_duration
-			
-	
-	event = ("%s user_title=%s, player_platform=%s, player_product=%s, video_grandparentTitle=%s, video_title=%s, video_type=%s, video_guid=%s, video_duration=%s, video_viewOffset=%s, video_progress=%s" 
+			if DEBUG:
+				print "DEBUG video_progress		: ", video_progress
+
+
+	data = ("%s user_title=%s, player_platform=\"%s\", player_product=\"%s\", video_grandparentTitle=\"%s\", video_title=\"%s\", video_type=%s, video_guid=%s, video_duration=%s, video_viewOffset=%s, video_progress=%s" 
 				 % (timestamp, user_title, player_platform, player_product, video_grandparentTitle, video_title, video_type, video_guid, video_duration, video_viewOffset, video_progress))
 				 
-	print event
+	print data
 	
 if __name__ == '__main__':
     check_sessions(SERVER_HOST, SERVER_PORT, SERVER_PLEX_TOKEN)
