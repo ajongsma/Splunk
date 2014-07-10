@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyPlex authToken="abcdefghijklmnopqrst" username="username@gmail.com" mappingState="mapped" mappingError="" mappingErrorMessage="1" signInState="ok" publicAddress="1" publicPort="32400" privateAddress="1" privatePort="32400" subscriptionFeatures="cloudsync,pass,sync" subscriptionActive="1" subscriptionState="Active">
+</MyPlex>
