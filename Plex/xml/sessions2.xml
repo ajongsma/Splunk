@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaContainer size="3">
+<Video addedAt="1396729960" art="/library/metadata/878/art/1403399931" contentRating="TV-14" duration="2589344" grandparentKey="/library/metadata/878" grandparentRatingKey="878" grandparentThumb="/library/metadata/878/thumb/1403399931" grandparentTitle="Crisis" guid="com.plexapp.agents.thetvdb://269592/1/2?lang=en" index="2" key="/library/metadata/895" lastViewedAt="1405015423" librarySectionID="2" originallyAvailableAt="2014-03-23" parentIndex="1" parentKey="/library/metadata/879" parentRatingKey="879" parentThumb="/library/metadata/879/thumb/1396725452" rating="7.8000001907348597" ratingKey="895" sessionKey="72" summary="After a mysterious phone call, Meg Fitch must collect a large sum of cash in order to get her daughter Amber back safely. Meanwhile, the Pakistani Ambassador is tasked with doing the unthinkable to get his son back. Elsewhere, Dunn and Finley begin working together to track down the whereabouts of a missing secret service agent and uncover a surprising secret. At the mansion, the students of Ballard High School are tested by their captors." thumb="/library/metadata/895/thumb/1403252208" title="If You Are Watching This I Am Dead" type="episode" updatedAt="1403252208" viewOffset="450816" year="2014">
+<Media aspectRatio="1.78" audioChannels="6" audioCodec="ac3" bitrate="4659" container="mkv" duration="2589344" height="720" id="830" videoCodec="h264" videoFrameRate="24p" videoResolution="720" width="1280">
+<Part container="mkv" duration="2589344" file="/Users/Andries/Media/Series/Crisis/Season 01/Crisis S01E02 720p WEB-DL-KiNGS.mkv" id="831" key="/library/parts/831/file.mkv" size="1507856775">
+<Stream bitDepth="8" bitrate="4182" cabac="0" chromaSubsampling="4:2:0" codec="h264" codecID="V_MPEG4/ISO/AVC" colorSpace="yuv" duration="2589339" frameRate="23.976" frameRateMode="cfr" hasScalingMatrix="1" height="720" id="3062" index="0" language="English" languageCode="eng" level="31" profile="high" refFrames="2" scanType="progressive" streamType="1" title="" width="1280" />
+<Stream bitDepth="16" bitrate="384" bitrateMode="cbr" channels="6" codec="ac3" codecID="A_AC3" dialogNorm="-27" duration="2589344" id="3063" index="1" language="English" languageCode="eng" samplingRate="48000" selected="1" streamType="2" title="" />
+<Stream codecID="S_TEXT/UTF8" default="1" format="srt" id="3064" index="2" streamType="3" title="" />
+<Stream codec="srt" format="srt" id="11397" key="/library/streams/11397" language="Nederlands" languageCode="dut" selected="1" streamType="3" />
+</Part>
+</Media>
+<Writer id="4263" tag="Rand Ravich" />
+<Director id="4273" tag="Peter Markle" />
+<User id="1" thumb="http://www.gravatar.com/avatar/20b92fe4ad37c4af673be4e5d862aa65?d=404" title="a.jongsma" />
+<Player machineIdentifier="62C00CBA-93F6-45DA-86BD-F7D85D6AD6BD" platform="iOS" product="Plex/iOS" state="paused" title="AJ&apos;s iPhone" />
+<TranscodeSession key="62C00CBA-93F6-45DA-86BD-F7D85D6AD6BD-00" throttled="1" progress="4.6999998092651367" speed="3.7999999523162842" duration="2589000" videoDecision="transcode" audioDecision="transcode" subtitleDecision="burn" protocol="hls" container="mpegts" videoCodec="h264" audioCodec="aac" audioChannels="2" width="1280" height="720" />
+</Video>
+<Video addedAt="1396198477" art="/library/metadata/151/art/1396198663" contentRating="PG-13" duration="8294503" guid="com.plexapp.agents.imdb://tt1430132?lang=en" key="/library/metadata/151" lastViewedAt="1405015228" librarySectionID="1" originallyAvailableAt="2013-07-16" rating="6.3000001907348597" ratingKey="151" sessionKey="71" studio="20th Century Fox" summary="Wolverine faces his ultimate nemesis - and tests of his physical, emotional, and mortal limits - in a life-changing voyage to modern-day Japan." tagline="When he&apos;s most vulnerable, he&apos;s most dangerous." thumb="/library/metadata/151/thumb/1396198663" title="The Wolverine" titleSort="Wolverine" type="movie" updatedAt="1396198663" viewOffset="2056516" year="2013">
+<Media aspectRatio="2.35" audioChannels="6" audioCodec="ac3" bitrate="10631" container="mkv" duration="8294503" height="800" id="147" videoCodec="h264" videoFrameRate="24p" videoResolution="1080" width="1920">
+<Part container="mkv" duration="8294503" file="/Users/Andries/Media/Movies/Movies link/_Archive/Wolverine, The (2013)/The Wolverine EXT 2013 1080p BluRay x264 NLSubs-QoQ.mkv" id="147" key="/library/parts/147/file.mkv" size="11022244682">
+<Stream bitDepth="8" bitrate="8676" cabac="1" chromaSubsampling="4:2:0" codec="h264" codecID="V_MPEG4/ISO/AVC" colorSpace="yuv" duration="8294503" frameRate="23.976" frameRateMode="cfr" hasScalingMatrix="0" height="800" id="785" index="0" language="English" languageCode="eng" level="41" profile="high" refFrames="5" scanType="progressive" streamType="1" title="" width="1920" />
+<Stream bitDepth="16" bitrate="448" bitrateMode="cbr" channels="6" codec="ac3" codecID="A_AC3" dialogNorm="-31" duration="8294496" id="786" index="1" language="English" languageCode="eng" samplingRate="48000" selected="1" streamType="2" title="" />
+<Stream bitDepth="24" bitrate="1509" bitrateMode="cbr" channels="6" codec="dca" codecID="A_DTS" duration="8294496" id="787" index="2" language="English" languageCode="eng" profile="es" samplingRate="48000" streamType="2" title="" />
+<Stream codecID="S_TEXT/UTF8" default="1" format="srt" id="788" index="3" language="Nederlands" languageCode="dut" streamType="3" title="" />
+<Stream codecID="S_TEXT/UTF8" format="srt" id="789" index="4" language="English" languageCode="eng" streamType="3" title="" />
+<Stream codecID="S_TEXT/UTF8" format="srt" id="790" index="5" language="English" languageCode="eng" streamType="3" title="" />
+</Part>
+</Media>
+<Genre id="178" tag="Action Film" />
+<Genre id="165" tag="Fantasy" />
+<Genre id="190" tag="Adventure Film" />
+<Genre id="168" tag="Science Fiction" />
+<Writer id="1767" tag="Christopher McQuarrie" />
+<Writer id="1769" tag="Mark Bomback" />
+<Director id="3199" tag="James Mangold" />
+<Producer id="3208" tag="Hugh Jackman" />
+<Producer id="3209" tag="Hutch Parker" />
+<Producer id="3210" tag="Lauren Shuler Donner" />
+<Country id="1399" tag="Australia" />
+<Role id="3200" role="Shingen Yashida" tag="Hiroyuki Sanada" />
+<Role id="3201" role="Mariko Yashida" tag="Tao Okamoto" />
+<Role id="3202" role="Wolverine" tag="Hugh Jackman" thumb="http://image.tmdb.org/t/p/original/wnl7esRbP3paALKn4bCr0k8qaFu.jpg" />
+<Role id="3203" role="Yukio" tag="Rila Fukushima" />
+<Role id="3204" role="Viper" tag="Svetlana Khodchenkova" />
+<Role id="3205" role="Kenuichio Harada" tag="Will Yun Lee" />
+<Role id="3206" role="Noburo Mori" tag="Brian Tee" />
+<Role id="3205" role="Silver Samurai" tag="Will Yun Lee" />
+<Role id="3207" role="Yashida" tag="Hal Yamanouchi" />
+<User id="2561893" title="gertjanhakkers" />
+<Player machineIdentifier="7xchvwllyndjy" platform="Samsung" product="Plex for Samsung" state="playing" title="TV UE55HU6900" />
+</Video>
+<Video addedAt="1396729960" art="/library/metadata/878/art/1403399931" contentRating="TV-14" duration="2589344" grandparentKey="/library/metadata/878" grandparentRatingKey="878" grandparentThumb="/library/metadata/878/thumb/1403399931" grandparentTitle="Crisis" guid="com.plexapp.agents.thetvdb://269592/1/2?lang=en" index="2" key="/library/metadata/895" lastViewedAt="1405014750" librarySectionID="2" originallyAvailableAt="2014-03-23" parentIndex="1" parentKey="/library/metadata/879" parentRatingKey="879" parentThumb="/library/metadata/879/thumb/1396725452" rating="7.8000001907348597" ratingKey="895" sessionKey="69" summary="After a mysterious phone call, Meg Fitch must collect a large sum of cash in order to get her daughter Amber back safely. Meanwhile, the Pakistani Ambassador is tasked with doing the unthinkable to get his son back. Elsewhere, Dunn and Finley begin working together to track down the whereabouts of a missing secret service agent and uncover a surprising secret. At the mansion, the students of Ballard High School are tested by their captors." thumb="/library/metadata/895/thumb/1403252208" title="If You Are Watching This I Am Dead" type="episode" updatedAt="1403252208" viewOffset="450518" year="2014">
+<Media aspectRatio="1.78" audioChannels="6" audioCodec="ac3" bitrate="4659" container="mkv" duration="2589344" height="720" id="830" videoCodec="h264" videoFrameRate="24p" videoResolution="720" width="1280">
+<Part container="mkv" duration="2589344" file="/Users/Andries/Media/Series/Crisis/Season 01/Crisis S01E02 720p WEB-DL-KiNGS.mkv" id="831" key="/library/parts/831/file.mkv" size="1507856775">
+<Stream bitDepth="8" bitrate="4182" cabac="0" chromaSubsampling="4:2:0" codec="h264" codecID="V_MPEG4/ISO/AVC" colorSpace="yuv" duration="2589339" frameRate="23.976" frameRateMode="cfr" hasScalingMatrix="1" height="720" id="3062" index="0" language="English" languageCode="eng" level="31" profile="high" refFrames="2" scanType="progressive" streamType="1" title="" width="1280" />
+<Stream bitDepth="16" bitrate="384" bitrateMode="cbr" channels="6" codec="ac3" codecID="A_AC3" dialogNorm="-27" duration="2589344" id="3063" index="1" language="English" languageCode="eng" samplingRate="48000" selected="1" streamType="2" title="" />
+<Stream codecID="S_TEXT/UTF8" default="1" format="srt" id="3064" index="2" streamType="3" title="" />
+<Stream codec="srt" format="srt" id="11397" key="/library/streams/11397" language="Nederlands" languageCode="dut" selected="1" streamType="3" />
+</Part>
+</Media>
+<Writer id="4263" tag="Rand Ravich" />
+<Director id="4273" tag="Peter Markle" />
+<User id="1" thumb="http://www.gravatar.com/avatar/20b92fe4ad37c4af673be4e5d862aa65?d=404" title="a.jongsma" />
+<Player machineIdentifier="92qmveaa65" platform="Safari" product="Plex Web" state="paused" title="Plex Web (Safari)" />
+<TranscodeSession key="6tbo0g35tdk" throttled="1" progress="9.6000003814697266" speed="0" duration="2589000" videoDecision="transcode" audioDecision="transcode" subtitleDecision="burn" protocol="hls" container="mpegts" videoCodec="h264" audioCodec="aac" audioChannels="6" width="1280" height="720" />
+</Video>
+</MediaContainer>
