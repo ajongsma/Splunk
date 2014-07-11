@@ -22,27 +22,53 @@ def check_sessions(server_host, server_port, server_plex_token):
 #	else:
 #		feed = urllib.urlopen("http://%s:%s/status/sessions" % SERVER, SERVER_PORT)
 
-	tree = ET.ElementTree(file='sessions1.xml')
-
-#	tree.getroot()
-#	print tree.getroot()
+	tree = ET.ElementTree(file='sessions2.xml')
+#	print "DEBUG tree.getroot: ", tree.getroot()
 
 	root = tree.getroot()
-	root.tag, root.attrib
-#	print root.tag, root.attrib
+#	print "DEBUG tree.getroot: ", tree.getroot()
+#	root.tag, root.attrib
+	
+	count_ElementsRoot = root.attrib.get('size')
+	print "DEBUG root.tag, root.attrib: ", root.tag, root.attrib
+	
+	if count_ElementsRoot == "0":
+		print "DEBUG Mediacontainer has size 0, exiting"
+		return
 
+	for x in root:
+		print "X", x
+		for y in x:
+			print "Y :", y
+
+			
+			
+			
+	print 1, "-" * 40
+		
+#	print 1, "-" * 40
+#	for child in root:
+#		print child.tag
+#		
+#		child.find( "Video" )
+#		for x in child.iter("Video"):
+#			print "-> ", x.tag, x.text
+#			for node in tree.iter('User'):
+#				print "--> ", node.attrib.get('title')
+#	print 1, "-" * 40
+		
 #	print 1, "-" * 40
 #	for child_of_root in root:
 #		print child_of_root.tag, child_of_root.attrib
-
+	
 #	print 2, "-" * 40
 #	root[0].tag, root[0].text
-#	print root[0].tag, root[0].text
-
+	
 #	print 3, "-" * 40
 #	for elem in tree.iter():
 #		print elem.tag, elem.attrib
-
+#	print 3, "-" * 40
+	
 #	print "=" * 80
 #	print "-" * 40
 #	print "Video"
