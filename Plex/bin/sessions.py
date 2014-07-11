@@ -24,8 +24,12 @@ def check_sessions(server_host, server_port, server_plex_token):
 
 	tree = ET.ElementTree(file='sessions1.xml')
 
+#	tree.getroot()
+#	print tree.getroot()
+
 	root = tree.getroot()
 	root.tag, root.attrib
+#	print root.tag, root.attrib
 
 #	print 1, "-" * 40
 #	for child_of_root in root:
@@ -86,9 +90,11 @@ def check_sessions(server_host, server_port, server_plex_token):
 	for node in tree.iter('Player'):
 		player_platform = node.attrib.get('platform')
 		player_product = node.attrib.get('product')
+		player_title = node.attrib.get('title')
 		if DEBUG:
 			print "DEBUG player_platform		: ", player_platform
 			print "DEBUG player_product 		: ", player_product
+			print "DEBUG player_title		: ", player_title
 			
 	for node in tree.iter('Video'):
 		video_grandparentTitle = node.attrib.get('grandparentTitle')
@@ -111,8 +117,8 @@ def check_sessions(server_host, server_port, server_plex_token):
 				print "DEBUG video_progress		: ", video_progress
 
 
-	data = ("%s user_title=%s, player_platform=\"%s\", player_product=\"%s\", video_grandparentTitle=\"%s\", video_title=\"%s\", video_type=%s, video_guid=%s, video_duration=%s, video_viewOffset=%s, video_progress=%s" 
-				 % (timestamp, user_title, player_platform, player_product, video_grandparentTitle, video_title, video_type, video_guid, video_duration, video_viewOffset, video_progress))
+	data = ("%s user_title=%s,player_platform=\"%s\",player_product=\"%s\",player_title=\"%s\",video_grandparentTitle=\"%s\",video_title=\"%s\",video_type=%s,video_guid=%s,video_duration=%s,video_viewOffset=%s,video_progress=%s" 
+				 % (timestamp, user_title, player_platform, player_product, player_title, video_grandparentTitle, video_title, video_type, video_guid, video_duration, video_viewOffset, video_progress))
 				 
 	print data
 	
