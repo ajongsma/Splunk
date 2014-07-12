@@ -12,25 +12,12 @@
       </Part>
     </Media>
     <Genre id="178" tag="Action Film" />
-    <Genre id="165" tag="Fantasy" />
-    <Genre id="190" tag="Adventure Film" />
-    <Genre id="168" tag="Science Fiction" />
     <Writer id="1767" tag="Christopher McQuarrie" />
-    <Writer id="1769" tag="Mark Bomback" />
     <Director id="3199" tag="James Mangold" />
-    <Producer id="3208" tag="Hugh Jackman" />
-    <Producer id="3209" tag="Hutch Parker" />
-    <Producer id="3210" tag="Lauren Shuler Donner" />
     <Country id="1399" tag="Australia" />
     <Role id="3200" role="Shingen Yashida" tag="Hiroyuki Sanada" />
     <Role id="3201" role="Mariko Yashida" tag="Tao Okamoto" />
     <Role id="3202" role="Wolverine" tag="Hugh Jackman" thumb="http://image.tmdb.org/t/p/original/wnl7esRbP3paALKn4bCr0k8qaFu.jpg" />
-    <Role id="3203" role="Yukio" tag="Rila Fukushima" />
-    <Role id="3204" role="Viper" tag="Svetlana Khodchenkova" />
-    <Role id="3205" role="Kenuichio Harada" tag="Will Yun Lee" />
-    <Role id="3206" role="Noburo Mori" tag="Brian Tee" />
-    <Role id="3205" role="Silver Samurai" tag="Will Yun Lee" />
-    <Role id="3207" role="Yashida" tag="Hal Yamanouchi" />
     <User id="2561893" title="gertjanhakkers" />
     <Player machineIdentifier="7xchvwllyndjy" platform="Samsung" product="Plex for Samsung" state="playing" title="TV UE55HU6900" />
   </Video>
